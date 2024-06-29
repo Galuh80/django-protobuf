@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package blog;
+
+import "google/protobuf/empty.proto";
+
+service BlogController {
+    rpc List(BlogListRequest) returns (stream Blog) {}
+    rpc Create(Blog) returns (Blog) {}
+    rpc Retrieve(BlogRetrieveRequest) returns (Blog) {}
+    rpc Update(Blog) returns (Blog) {}
+    rpc Destroy(Blog) returns (google.protobuf.Empty) {}
+}
+
+message Blog {
+    int64 id = 1;
+    string title = 2;
+    string content = 3;
+}
+
+message BlogListRequest {
+}
+
+message BlogRetrieveRequest {
+    int64 id = 1;
+}

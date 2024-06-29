@@ -1,0 +1,6 @@
+django
+djangorestframework
+djangogrpcframework
+grpcio
+grpcio-tools
+python-dotenv
