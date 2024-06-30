@@ -15,7 +15,7 @@ _sym_db = _symbol_database.Default()
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nblog.proto\x12\x04\x62log\x1a\x1bgoogle/protobuf/empty.proto\"2\n\x04\x42log\x12\n\n\x02id\x18\x01 \x01(\x03\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0f\n\x07\x63ontent\x18\x03 \x01(\t\"\x11\n\x0f\x42logListRequest\"!\n\x13\x42logRetrieveRequest\x12\n\n\x02id\x18\x01 \x01(\x03\x32\xed\x01\n\x0e\x42logController\x12-\n\x04List\x12\x15.blog.BlogListRequest\x1a\n.blog.Blog\"\x00\x30\x01\x12\"\n\x06\x43reate\x12\n.blog.Blog\x1a\n.blog.Blog\"\x00\x12\x33\n\x08Retrieve\x12\x19.blog.BlogRetrieveRequest\x1a\n.blog.Blog\"\x00\x12\"\n\x06Update\x12\n.blog.Blog\x1a\n.blog.Blog\"\x00\x12/\n\x07\x44\x65stroy\x12\n.blog.Blog\x1a\x16.google.protobuf.Empty\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nblog.proto\x12\x04\x62log\x1a\x1bgoogle/protobuf/empty.proto\"2\n\x04\x42log\x12\n\n\x02id\x18\x01 \x01(\x05\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0f\n\x07\x63ontent\x18\x03 \x01(\t\"\x11\n\x0f\x42logListRequest\"!\n\x13\x42logRetrieveRequest\x12\n\n\x02id\x18\x01 \x01(\x05\x32\xed\x01\n\x0e\x42logController\x12-\n\x04List\x12\x15.blog.BlogListRequest\x1a\n.blog.Blog\"\x00\x30\x01\x12\"\n\x06\x43reate\x12\n.blog.Blog\x1a\n.blog.Blog\"\x00\x12\x33\n\x08Retrieve\x12\x19.blog.BlogRetrieveRequest\x1a\n.blog.Blog\"\x00\x12\"\n\x06Update\x12\n.blog.Blog\x1a\n.blog.Blog\"\x00\x12/\n\x07\x44\x65stroy\x12\n.blog.Blog\x1a\x16.google.protobuf.Empty\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)

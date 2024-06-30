@@ -1,5 +1,5 @@
-django
-djangorestframework
+Django==3.0
+djangorestframework==3.10
 djangogrpcframework
 grpcio
 grpcio-tools

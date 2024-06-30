@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./apps/blog/proto/blog_pb2_"
+    ]
+}
